@@ -241,26 +241,43 @@ namespace Listener {
 			gr.ResetTransform();
 		}
 
+		// Some data.
+		// U.S. gross national debt in $ billions.
+		// Souurce: http://en.wikipedia.org/wiki/United_States_public_debt.
 		PointF[] Values = {
-			new PointF(1910, 2.6f),
-			new PointF(1920, 25.9f),
-			new PointF(1928, 18.5f),
-			new PointF(1930, 16.2f),
-			new PointF(1940, 50.6f),
-			new PointF(1950, 256.8f),
-			new PointF(1960, 290.5f),
-			new PointF(1970, 380.9f),
-			new PointF(1980, 909.0f),
-			new PointF(1990, 3206.3f),
-			new PointF(2000, 5628.7f),
-			new PointF(2005, 7905.3f),
+			new PointF(1910,      2.65f),
+			new PointF(1920,     25.95f),
+			new PointF(1928,     18.51f),
+			new PointF(1930,     16.19f),
+			new PointF(1940,     50.7f),
+			new PointF(1950,    256.9f),
+			new PointF(1960,    290.5f),
+			new PointF(1970,    380.9f),
+			new PointF(1980,    909.0f),
+			new PointF(1990,  3_206.0f),
+			new PointF(2000,  5_659.0f),
+			new PointF(2001,  5_792.0f),
+			new PointF(2002,  6_213.0f),
+			new PointF(2003,  6_783.0f),
+			new PointF(2004,  7_379.0f),
+			new PointF(2005,  7_918.0f),
+			new PointF(2006,  8_493.0f),
+			new PointF(2007,  8_993.0f),
+			new PointF(2008, 10_011.0f),
+			new PointF(2009, 11_898.0f),
+			new PointF(2010, 13_551.0f),
+			new PointF(2011, 14_781.0f),
+			new PointF(2012, 16_059.0f),
+			new PointF(2013, 16_732.0f),
+			new PointF(2014, 17_810.0f),
+			new PointF(2015, 18_138.0f),
 		};
 
 		// World coordinate information.
 		const int Wxmin = 1900;
-		const int Wxmax = 2010;
+		const int Wxmax = 2016;
 		const int Wymin = 0;
-		const int Wymax = 8000;
+		const int Wymax = 19_000;
 
 		// The area where we will draw the graph.
 		int GraphXmin, GraphXmax, GraphYmin, GraphYmax;
